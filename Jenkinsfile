@@ -21,6 +21,7 @@ stage('Build') {
         }
     }
 }
+}
 
 if(FULL_BUILD) {
     stage('Unit Tests') {   
